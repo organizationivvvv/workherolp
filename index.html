@@ -3,70 +3,204 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WorkHero - Grow Your Agency</title>
-    <meta name="description" content="WordPress development for agencies">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <style>
-        *{margin:0;padding:0;box-sizing:border-box}
-        body{font-family:Inter,sans-serif;line-height:1.6;color:#0f172a;background:#f8fafc}
-        .container{max-width:1200px;margin:0 auto;padding:0 20px}
-        .hero{background:#0f172a;color:#fff;padding:6rem 0;text-align:center}
-        .hero h1{font-size:3rem;font-weight:800;margin-bottom:1rem}
-        .hero p{font-size:1.25rem;color:#cbd5e1;margin-bottom:2rem}
-        .btn{display:inline-block;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:600}
-        .btn-primary{background:#2563eb;color:#fff}
-        .btn-primary:hover{background:#1d4ed8}
-        .features{padding:4rem 0}
-        .features h2{text-align:center;margin-bottom:2rem}
-        .feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem}
-        .feature-card{background:#fff;padding:2rem;border-radius:16px;box-shadow:0 2px 4px rgba(0,0,0,0.1);text-align:center}
-        .feature-icon{font-size:3rem;margin-bottom:1rem}
-        .contact{padding:4rem 0;text-align:center;background:#2563eb;color:#fff}
-        footer{text-align:center;padding:2rem;background:#0f172a;color:#fff}
-    </style>
+    <title>WorkHero - Grow Your Agency Without Growing Your Team</title>
+    <meta name="description" content="Reliable WordPress development, support, maintenance, SEO & prototyping—supercharged with AI">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="hero">
+    <!-- Navigation -->
+    <nav class="navbar">
         <div class="container">
-            <h1>Grow Your Agency Without Growing Your Team</h1>
-            <p>Reliable WordPress development, support, maintenance, SEO, and prototyping—supercharged with AI.</p>
-            <a href="#contact" class="btn btn-primary">Book a Call</a>
+            <div class="logo">Work<span class="logo-highlight">Hero</span></div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+            </ul>
+            <a href="#cta" class="btn btn-primary">Book a Call</a>
         </div>
-    </div>
+    </nav>
 
-    <div class="features" id="contact">
+    <!-- Hero Section -->
+    <header class="hero" id="cta">
         <div class="container">
-            <h2>What We Do</h2>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">💻</div>
-                    <h3>Full-Stack Development</h3>
-                    <p>Frontend, Backend, Mobile-Responsive</p>
+            <div class="hero-content">
+                <span class="badge">AI-Powered WordPress Solutions</span>
+                <h1 class="hero-headline">Grow Your Agency Without Growing Your Team</h1>
+                <p class="hero-subheadline">Reliable WordPress development, support, maintenance, technical SEO, and design prototyping—supercharged with AI.</p>
+                <div class="hero-cta">
+                    <a href="#cta" class="btn btn-primary btn-lg">Book a Call</a>
+                    <a href="#how-it-works" class="btn btn-secondary btn-lg">Learn More</a>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔍</div>
-                    <h3>Technical SEO</h3>
-                    <p>Optimization to drive organic traffic</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🛡️</div>
-                    <h3>Proactive Maintenance</h3>
-                    <p>Daily monitoring, backups, security</p>
+                <div class="hero-stats">
+                    <div class="stat"><span class="stat-number">120+</span><span class="stat-label">Agencies</span></div>
+                    <div class="stat"><span class="stat-number">1000+</span><span class="stat-label">Sites Managed</span></div>
+                    <div class="stat"><span class="stat-number">4.9/5</span><span class="stat-label">Rating</span></div>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 
-    <div class="contact">
+    <!-- Problem Section -->
+    <section class="problem-section">
+        <div class="container">
+            <h2>The Problem You're Facing</h2>
+            <div class="problem-grid">
+                <div class="problem-card"><div class="icon">💸</div><h3>Fixed Revenue vs. Chaos</h3><p>Agencies losing clients due to constant technical delays.</p></div>
+                <div class="problem-card"><div class="icon">🤖</div><h3>Freelancers Don't Scale</h3><p>Inconsistent technical leadership and lack of QA supervision.</p></div>
+                <div class="problem-card"><div class="icon">⚡</div><h3>Lost Opportunities</h3><p>Every day without a solution is a lost day.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agitation Section -->
+    <section class="agitation-section">
+        <div class="container">
+            <h2>The Cost of Inaction</h2>
+            <div class="agitation-content">
+                <p class="agitation-text">While you struggle with bugs and delays:</p>
+                <ul class="agitation-list">
+                    <li>Dissatisfied customers cancel</li>
+                    <li>Small teams work overtime</li>
+                    <li>Growth opportunities fall behind</li>
+                    <li>Team stress increases</li>
+                </ul>
+                <p><strong>Stop losing clients to technical delays.</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution-section">
+        <div class="container">
+            <div class="solution-text">
+                <h2>Your Development Team, Supercharged with AI</h2>
+                <p class="solution-intro">WorkHero isn't just another freelancer. We're a complete team ready to make your agency grow.</p>
+                <h3>What's Included</h3>
+                <ul class="solution-list">
+                    <li><span class="badge badge-check">✓</span><strong>Full-Stack Development</strong><span class="light">Frontend, Backend, Mobile-Responsive</span></li>
+                    <li><span class="badge badge-check">✓</span><strong>QA Testing & Debugging</strong><span class="light">Quality assurance and bug fixes</span></li>
+                    <li><span class="badge badge-check">✓</span><strong>Technical SEO</strong><span class="light">Optimization to drive organic traffic</span></li>
+                    <li><span class="badge badge-check">✓</span><strong>Proactive Maintenance</strong><span class="light">Daily monitoring, backups, and security</span></li>
+                    <li><span class="badge badge-check">✓</span><strong>Custom Integrations</strong><span class="light">CRM, Email, Payment Gateway</span></li>
+                    <li><span class="badge badge-check">✓</span><strong>White-Label Options</strong><span class="light">Present as your own team</span></li>
+                </ul>
+                <div class="guarantee-badge"><span class="guarantee-icon">🛡️</span><div><strong>60-Day Money-Back Guarantee</strong><p class="light">Zero risk. Cancel anytime.</p></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps-grid">
+                <div class="step"><span class="step-number">1</span><h3>Book a Call</h3><p>Initial conversation to understand your challenges</p></div>
+                <div class="step"><span class="step-number">2</span><h3>Diagnosis</h3><p>Complete analysis of your stack and performance</p></div>
+                <div class="step"><span class="step-number">3</span><h3>Custom Plan</h3><p>We design exactly what your agency needs</p></div>
+                <div class="step"><span class="step-number">4</span><h3>Onboarding</h3><p>Team in place within 48 hours</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offer Section -->
+    <section class="offer-section">
+        <div class="container">
+            <div class="offer-content">
+                <h2>Special Offer This Week</h2>
+                <p class="offer-intro">To accelerate your decision:</p>
+                <div class="offer-grid">
+                    <div class="offer-item"><span class="offer-icon">📅</span><h3>Free Diagnosis</h3><p>Complete analysis</p></div>
+                    <div class="offer-item"><span class="offer-icon">⚡</span><h3>2 Free Hours</h3><p>Development work</p></div>
+                    <div class="offer-item"><span class="offer-icon">🛡️</span><h3>60-Day Guarantee</h3><p>Zero risk</p></div>
+                </div>
+                <a href="#cta" class="btn btn-primary btn-lg">Book Your Free Call</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2>What Our Partners Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card"><div class="stars">⭐⭐⭐⭐⭐</div><p class="quote">"I've been using Work Hero for the past four months, and I'm genuinely impressed."</p><div class="author"><div class="author-name">Sarah Johnson</div><div class="author-title">CEO, Digital Pulse Agency</div></div></div>
+                <div class="testimonial-card"><div class="stars">⭐⭐⭐⭐⭐</div><p class="quote">"Work Hero has completely transformed how we handle client projects."</p><div class="author"><div class="author-name">Marcus Chen</div><div class="author-title">Founder, TechForward Solutions</div></div></div>
+                <div class="testimonial-card"><div class="stars">⭐⭐⭐⭐⭐</div><p class="quote">"Finally a dev team that scales with us."</p><div class="author"><div class="author-name">Elena Rodriguez</div><div class="author-title">Partner, Creative Edge</div></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Authority -->
+    <section class="authority">
+        <div class="container">
+            <h2>Why WorkHero Is Different</h2>
+            <div class="comparison-grid">
+                <div class="comparison-col"><h3>You (Now)</h3><ul><li>Hours lost hunting freelancers</li><li>No consistent quality</li><li>No scalability</li></ul></div>
+                <div class="comparison-col"><h3>WorkHero</h3><ul><li>Ready team</li><li>QA guaranteed</li><li>Automatic scale</li></ul></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2>Plans That Scale With Your Agency</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card"><h3>Starter</h3><div class="price">$499<span class="period">/month</span></div><ul><li>Up to 5 projects/mo</li><li>Email support</li></ul><a href="#" class="btn btn-outline">Choose</a></div>
+                <div class="pricing-card"><span class="popular-badge">Popular</span><h3>Growth</h3><div class="price">$1,299<span class="period">/month</span></div><ul><li>Up to 15 projects/mo</li><li>Priority support</li><li>Technical SEO</li></ul><a href="#" class="btn btn-primary">Choose</a></div>
+                <div class="pricing-card"><span class="popular-badge">Best Value</span><h3>Scale</h3><div class="price">$2,999<span class="period">/month</span></div><ul><li>Unlimited projects</li><li>Dedicated PM</li><li>24/7 support</li></ul><a href="#" class="btn btn-outline">Choose</a></div>
+            </div>
+            <p class="pricing-footer">No contracts. Cancel anytime. 60-day guarantee.</p>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2>FAQ</h2>
+            <details><summary>How quickly do you respond?</summary><div>24-48 hour turnaround</div></details>
+            <details><summary>Do you work with existing teams?</summary><div>Absolutely. We complement your team.</div></details>
+            <details><summary>Can I cancel anytime?</summary><div>Yes. No contracts. 60-day guarantee.</div></details>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
         <div class="container">
             <h2>Ready to Transform Your Agency?</h2>
-            <p>Join 120+ agencies growing without the overhead.</p>
-            <a href="mailto:hello@workhero.com" class="btn btn-primary">Contact Us</a>
+            <p>Join 120+ agencies growing without overhead.</p>
+            <a href="#cta" class="btn btn-primary btn-xl">Book Your Free Call</a>
+        </div>
+    </section>
+
+    <!-- Exit Intent -->
+    <div class="exit-intent" id="exitIntent">
+        <div class="exit-content">
+            <h3>Wait! Get Your Free Offer</h3>
+            <p>Get your <strong>free</strong> WordPress health check and 2 hours of development.</p>
+            <a href="#" class="btn btn-primary">Claim Offer</a>
+            <button class="close-btn" id="closeExit">No thanks</button>
         </div>
     </div>
 
-    <footer>
-        <p>&copy; 2026 WorkHero. All rights reserved.</p>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col"><div class="logo">Work<span class="logo-highlight">Hero</span></div><p>AI-powered WordPress solutions for agencies.</p></div>
+                <div class="footer-col"><h4>Menu</h4><a href="#features">Features</a><a href="#how-it-works">How It Works</a><a href="#pricing">Pricing</a><a href="#testimonials">Testimonials</a></div>
+                <div class="footer-col"><h4>Legal</h4><a href="#">Privacy</a><a href="#">Terms</a></div>
+                <div class="footer-col"><h4>Contact</h4><a href="mailto:hello@workhero.com">hello@workhero.com</a></div>
+            </div>
+            <div class="footer-bottom">&copy; 2026 WorkHero. All rights reserved.</div>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
